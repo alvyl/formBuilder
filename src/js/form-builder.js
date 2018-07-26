@@ -872,8 +872,8 @@ const FormBuilder = function(opts, element) {
       }).outerHTML
 
       if (attribute === 'label') {
-        inputConfig.contenteditable = true
-        attributefield += m('div', attrVal, inputConfig).outerHTML
+        // inputConfig.contenteditable = true
+        attributefield += m('textarea', attrVal, inputConfig).outerHTML
       } else {
         inputConfig.value = attrVal
         inputConfig.type = 'text'
