@@ -686,10 +686,10 @@
 }
 
 *[tooltip]:hover:after {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(204, 204, 204, 0.9);
   border-radius: 5px 5px 5px 0;
   bottom: 23px;
-  color: $white;
+  color: $black;
   content: attr(tooltip);
   padding: 10px 5px;
   position: absolute;
@@ -704,7 +704,7 @@
 
 *[tooltip]:hover:before {
   border: solid;
-  border-color: $grey-dark transparent;
+  border-color: $grey-light transparent;
   border-width: 6px 6px 0;
   bottom: 17px;
   content: '';
@@ -716,8 +716,8 @@
 
 .tooltip-element {
   visibility: visible;
-  color: $white;
-  background: $black;
+  color: $black;
+  background: $grey-light;
   width: 16px;
   height: 16px;
   border-radius: 8px;
