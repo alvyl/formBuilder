@@ -9,17 +9,8 @@
     }
   }
 
-  h4 {
-    margin-top: 0;
-    color: $grey;
-  }
-
   @include breakpoint('phone-lrg') {
     width: 64px;
-
-    h4 {
-      display: none;
-    }
   }
 }
 
